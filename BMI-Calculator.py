@@ -17,7 +17,7 @@ height = float(input("Enter your height in centimeters : "))
 
 bmi = bmi_calculator(weight, height)
 
-print(f'Your BMI is {round(bmi,2)}')
+print("Your BMI is" format(round(bmi,2)))
 
 if bmi < 0:
     print("Please Enter Vaid Details.....") 
